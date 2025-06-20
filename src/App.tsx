@@ -43,15 +43,15 @@ function App() {
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
       liveUrl: "https://effulgent-sunflower-99bc2f.netlify.app/",
-      githubUrl: "https://github.com/Kartik0516"
+      githubUrl: "https://github.com/Kartik0516/e-commerce-web"
     },
     {
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website showcasing my projects and skills. Built with modern web technologies and optimized for performance.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
-      liveUrl: "#",
-      githubUrl: "https://github.com/Kartik0516"
+      liveUrl: "https://kartikprt.vercel.app/",
+      githubUrl: "https://github.com/ks-740/kartikprt"
     },
     {
       title: "Flash Card Generator",
@@ -59,7 +59,7 @@ function App() {
       technologies: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
       image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=600",
       liveUrl: "https://prismatic-croquembouche-8366d7.netlify.app/",
-      githubUrl: "https://github.com/Kartik0516"
+      githubUrl: "https://github.com/Kartik0516/flashcard_generator"
     }
   ];
 
