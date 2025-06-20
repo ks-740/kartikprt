@@ -41,19 +41,25 @@ function App() {
       title: "E-commerce Platform",
       description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600"
+      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      liveUrl: "#",
+      githubUrl: "#"
     },
     {
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website showcasing my projects and skills. Built with modern web technologies and optimized for performance.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600"
+      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
+      liveUrl: "#",
+      githubUrl: "#"
     },
     {
       title: "Flash Card Generator",
-      description: "An interactive learning tool that allows users to create, study, and share flashcards. Features spaced repetition algorithms and progress tracking.",
-      technologies: ["React", "Local Storage", "CSS3", "JavaScript"],
-      image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=600"
+      description: "A dynamic flashcard application that helps users create, study, and manage custom flashcards. Features include card creation with questions and answers, interactive study mode with flip animations, and local storage for persistence. Built with vanilla JavaScript and modern CSS for smooth user interactions.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
+      image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=600",
+      liveUrl: "https://prismatic-croquembouche-8366d7.netlify.app/",
+      githubUrl: "https://github.com/Kartik0516"
     }
   ];
 
@@ -298,14 +304,24 @@ function App() {
                     ))}
                   </div>
                   <div className="flex space-x-4">
-                    <button className="flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+                    >
                       <ExternalLink size={16} className="mr-1" />
                       Live Demo
-                    </button>
-                    <button className="flex items-center text-gray-600 hover:text-gray-800 transition-colors">
+                    </a>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-600 hover:text-gray-800 transition-colors"
+                    >
                       <Github size={16} className="mr-1" />
                       Code
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
