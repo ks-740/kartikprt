@@ -42,8 +42,8 @@ function App() {
       description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://effulgent-sunflower-99bc2f.netlify.app/",
+      githubUrl: "https://github.com/Kartik0516"
     },
     {
       title: "Personal Portfolio Website",
@@ -51,7 +51,7 @@ function App() {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Kartik0516"
     },
     {
       title: "Flash Card Generator",
