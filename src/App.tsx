@@ -225,8 +225,7 @@ function App() {
               <p>
                 I'm actively seeking opportunities as a full-stack developer where I can contribute my fresh 
                 perspective, enthusiasm for learning, and dedication to creating impactful web applications. 
-                When I'm not coding, you'll find me exploring the latest tech trends, contributing to 
-                open-source projects, or hiking through the beautiful California landscapes.
+                When I'm not coding, you'll find me traveling or working out in the gym or in the field playing sports.
               </p>
               <div className="pt-6">
                 <button
